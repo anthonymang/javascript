@@ -1,3 +1,5 @@
+// Timeout exercise - microwave sounds food is ready notif for defined cookLength
+
 function microWave(){
     console.log("BEEP - Food is ready")
 }

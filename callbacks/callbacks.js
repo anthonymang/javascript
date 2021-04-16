@@ -80,3 +80,19 @@ calculator(doubleEachAndAdd, 3, 5);
 useMobileDevice("iPhone", checkEmail, "ProtonMail");
 
 useMobileDevice("Android", checkEmail, "Gmail");
+
+function getAverage(numArray){
+    let result = 0;
+    for (i=0; i < numArray.length; i+=1)
+    result += numArray[i];
+    result = result/numArray.length;
+    return result;
+}
+
+const numberList = [8, 6, 12, 14];
+
+const numList2 = [7,6,33,1,5,35,6547,2,647,324643,234,645,2,5,255,23];
+
+getAverage(numberList);
+
+getAverage(numList2);
